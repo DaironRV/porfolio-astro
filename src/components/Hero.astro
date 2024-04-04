@@ -4,7 +4,13 @@ import CartProyects from "../components/CartProyects.astro"
 
 ---
 
-<div class="flex flex-col sm:py-36 sm:flex-row py-10 px-5 sm:px-20">
+<div class="flex justify-center">
+    <div class="animation col-start-1 col-end-7 text-center text-4xl font-bold">
+        Dairon Rodriguez Vega 🖖
+    </div>
+</div>
+
+<div class="flex flex-col sm:py-10 sm:flex-row py-10 px-10 sm:px-20">
     <div class="w-full sm:w-1/3 px-20 mb-5 sm:mb-0">
         <CartPerfil/>
     </div>
@@ -14,7 +20,34 @@ import CartProyects from "../components/CartProyects.astro"
 </div>
 
 <style>
-    body{
+    body {
         background-color: #090E13;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
     }
-</style> 
+
+    .animation {
+        font: bold 200% Consolas, Monaco, monospace;
+        color: white;
+        border-right: .1em solid white;
+        width: 24.2ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 3s steps(24, end), blink-caret .16s step-end infinite alternate;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+
+    @keyframes blink-caret {
+        50% {
+            border-color: transparent;
+        }
+    }
+</style>
