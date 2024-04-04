@@ -1,0 +1,77 @@
+---
+export interface IProyets{
+    titel: string,
+    image : string
+    contend : string
+}
+
+const {title, image, contend} = Astro.props
+---
+
+
+<div class="image-container rounded-lg">
+  <img src={image} alt={title} width="200" class="rounded-lg"  height="150">
+  <div class="overlay rounded-lg overlay absolute bottom-0 left-0 bg-black bg-opacity-70 text-white p-4">
+      <h2 class="text-5xl font-bold">{title}</h2>
+      <p class="text-3xl">{contend}</p>
+  </div>
+</div>
+
+<style>
+  /* Estilos CSS */
+  .image-container {
+      position: relative;
+      display: inline-block;
+
+  }
+
+  .image-container img {
+      width: 100%; /* Cambia el ancho según tus necesidades */
+      height: auto; /* La altura se ajustará automáticamente */
+  }
+
+  .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color:  rgba(94, 173, 242, 0.4);
+      color: #fff;
+      display: none;
+      padding: 20px;
+      box-sizing: border-box;
+      transition: opacity 0.3s;
+  }
+
+  .image-container:hover .overlay {
+      display: block;
+  }
+
+  .overlay h2 {
+      opacity: 0;
+      transition: opacity 0.3s;
+  }
+
+  .image-container:hover .overlay h2 {
+      opacity: 1;
+  }
+  .overlay h2 {
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: left; /* Alineamos el texto a la izquierda */
+    animation: fadeIn 1s ease forwards; /* Agregamos la animación */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px); /* Desplazamos ligeramente hacia arriba */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+
