@@ -1,0 +1,87 @@
+
+
+    <nav class="tabs-container px">
+      <a href="#" class="backdrop-blur-sm hover:bg-cyan-700/50 rounded-lg  text-orange-100 text-xl">Sobre Mi</a>
+      <a href="#" class="backdrop-blur-sm hover:bg-cyan-700/50 rounded-lg  text-orange-100 text-xl">Proyectos</a>
+      <a href="#" class="backdrop-blur-sm hover:bg-cyan-700/50 rounded-lg  text-orange-100 text-xl">Juegos/JavaScript</a>
+      <a href="#" class="backdrop-blur-sm hover:bg-cyan-700/50 rounded-lg  text-orange-100 text-xl">Contactame</a>
+    </nav>
+
+
+  <script>
+    // Definir el tipo de la variable 'nav'
+const nav: HTMLElement | null = document.querySelector(".tabs-container");
+
+// Verificar si 'nav' no es nulo antes de acceder a sus propiedades
+if (nav) {
+    const offset: number = nav.offsetTop;
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY >= offset) {
+            nav.classList.add("sticky");
+        } else {
+            nav.classList.remove("sticky");
+        }
+    });
+} else {
+    console.error("Elemento '.tabs-container' no encontrado.");
+}
+  </script>
+
+<style>
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+#header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+
+.tabs-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 90%;
+  height: 70px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.tabs-container a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.section {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+</style>
