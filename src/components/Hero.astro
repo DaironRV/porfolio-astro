@@ -4,13 +4,9 @@ import CartProyects from "./cratProyectContaine.astro"
 
 ---
 
-<div class="h-screen bg-cover py-32">
+<div class="h-screen bg-cover">
     <div class="container">
-        <div class="flex justify-center py-5">
-            <div class="animation col-start-1 col-end-7 text-center text-4xl font-bold text-orange-100 ">
-                Dairon Rodriguez Vega 🖖
-            </div>
-        </div>
+        
         <div class="flex flex-col sm:py-10 sm:flex-row mb:py-10 xl:px-10 mb:px-10 sm:px-20">
             <div class="w-full xl:w-1/3 py-20 px-20 mb:px-20 sm:mb-0">
                 <CartPerfil/>
@@ -22,35 +18,4 @@ import CartProyects from "./cratProyectContaine.astro"
     </div>
 </div>
 
-<style>
-    body {
-        background-color: #090E13;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
 
-    .animation {
-        font: bold 200% Consolas, Monaco, monospace;
-        border-right: .1em solid white;
-        width: 24.2ch;
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typing 3s steps(24, end), blink-caret .16s step-end infinite alternate;
-    }
-
-    @keyframes typing {
-        from {
-            width: 0;
-        }
-    }
-
-    @keyframes blink-caret {
-        50% {
-            border-color: transparent;
-        }
-    }
-
-</style>
