@@ -3,16 +3,15 @@ import Layout from "../layouts/Layout.astro"
 import NavBar from "../components/NabBar.astro"
 import Hero from "../components/Hero.astro"
 import SobreMi from '../components/sobreMi.astro'
-import Title from '../components/Title.astro'
+
 ---
 
-<!-- <NavBar/> -->
 <Layout title="Dairon Rodriguez Vega">
     <div class="flex flex-col">
-        <Title/>
         <Hero/>
-        <div class="container">
+        <div class="container pt-40">
             <SobreMi/>
         </div>
     </div>
+    <NavBar/>
 </Layout>
