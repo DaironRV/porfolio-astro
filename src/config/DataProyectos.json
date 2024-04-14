@@ -1,0 +1,23 @@
+[
+    {
+        "Title":"Cliente Free lance",
+        "Image":"",
+        "Tecnologias":"JavaScript-CSS-HTML"
+    },
+    {
+        "Title":"Identificadion Monedas",
+        "Image":"",
+        "Tecnologias":"Python-OpenCV "
+    },
+    {
+        "Title":"EducaMás Pagina Empleabidad",
+        "Image":"",
+        "Tecnologias":"Django-HTML-CSS-JavaScript"
+
+    },
+    {
+        "Title":"Fan Page Black Library",
+        "Image":"",
+        "Tecnologias":"JavaScript-CSS-HTML"
+    }
+]
