@@ -1,0 +1,21 @@
+---
+import Contenido from '../../config/DataProyectos.json'
+import CartProyectosContenido from './ProyectosImage.astro' 
+---
+
+<ul>
+    {
+        Contenido.map((Contenido)=>{
+            return(
+                <CartProyectosContenido
+                title={Contenido.Title} 
+                tecnologis={Contenido.Tecnologias}
+                image ={Contenido.Image}
+                url={Contenido.url}
+                />
+            )
+        })
+    }
+</ul>
+
+<!-- Esta es com tal toda la carta con los botones y todo -->
