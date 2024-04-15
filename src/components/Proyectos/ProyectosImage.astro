@@ -1,27 +1,2 @@
----
-import SocialData from '../../config/DataProyectos.json'
-import ImageCart from './ProyectosContenedor.astro'
----
 
-<div class="bg-slate-800 p-6 rounded-xl flex container rtl ">
-    <div class="flex-1 object-left-top float-start">
-    {
-        SocialData.map((Data) => {
-            return(
-                <ImageCart 
-                title={ Data.Title }
-                image={Data.Image}
-                Tecnologis={Data.Tecnologias}
-            />
-        );
-        })
-    }
-    </div>
-    <div class="xl:px-3 float-end">
-        <a href="https://github.com/DaironRV" class="w-1/6 relative w-xl flex-row-reverse overflow-hidden">
-            <button class=" xl:w-full xl:h-full bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded xl:flex items-center justify-center">
-                <img src="/chechSvg.svg" class="w-20 h-20" alt="">
-            </button>
-        </a>
-    </div>
-</div>
+
