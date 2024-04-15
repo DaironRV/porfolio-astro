@@ -1,23 +1,23 @@
 [
     {
         "Title":"Cliente Free lance",
-        "Image":"",
+        "Image":"https://media.discordapp.net/attachments/1112216671227215965/1229451651270709248/image.png?ex=662fbb13&is=661d4613&hm=b88a962a609a08742f711fd7568f9338cd9aba84a8881a06559aa8734b3f0517&=&format=webp&quality=lossless&width=817&height=559",
         "Tecnologias":"JavaScript-CSS-HTML"
     },
     {
         "Title":"Identificadion Monedas",
-        "Image":"",
+        "Image":" https://private-user-images.githubusercontent.com/131011899/311406092-5409718d-7685-47ba-8cbe-db154d4e498d.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTMxOTQ1MDcsIm5iZiI6MTcxMzE5NDIwNywicGF0aCI6Ii8xMzEwMTE4OTkvMzExNDA2MDkyLTU0MDk3MThkLTc2ODUtNDdiYS04Y2JlLWRiMTU0ZDRlNDk4ZC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxNVQxNTE2NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMjkyODhmNTdlMjU0MjZjNzQ0YzJmMWVmMzA3OTRjOWQ0Mjk2MTM2M2E1Y2Q1NzgyMTE0Mjg0ZTIxM2I1OGIwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZYPdF4zN0N5_mMXYCcKtbvLvVabA_aj7fheFTvsnIC8",
         "Tecnologias":"Python-OpenCV "
     },
     {
         "Title":"EducaMás Pagina Empleabidad",
-        "Image":"",
+        "Image":" https://private-user-images.githubusercontent.com/90277397/271575724-5ebad1a8-4a2d-45b1-887c-05910728481e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTMxOTQ1NTQsIm5iZiI6MTcxMzE5NDI1NCwicGF0aCI6Ii85MDI3NzM5Ny8yNzE1NzU3MjQtNWViYWQxYTgtNGEyZC00NWIxLTg4N2MtMDU5MTA3Mjg0ODFlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDE1VDE1MTczNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNkNmM1Zjg0MDRjOTI3Nzc3NjI5YzQ1ZWU0Y2YwNGUwYzljMzNkMzY0MmI5YWIyY2Q5OTc1NGM5MjM0NGE0YzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0._i27bRU5wpcn01uvjHj5jZWYZHGXDmlxuNp_rV20bAU",
         "Tecnologias":"Django-HTML-CSS-JavaScript"
 
     },
     {
         "Title":"Fan Page Black Library",
-        "Image":"",
+        "Image":" https://media.discordapp.net/attachments/1112216671227215965/1146920521787773018/image.png?ex=662acbf9&is=661856f9&hm=9dbe3419e98c3c8cbe6fb23928e36efd46edadd99ba71143ee85b5cf36b34b07&=&format=webp&quality=lossless&width=1200&height=523",
         "Tecnologias":"JavaScript-CSS-HTML"
     }
 ]
