@@ -13,10 +13,10 @@ const {title, tecnologis, image, url} = Astro.props
 
 <li class="container grid grid-cols-2 gap-5 ">
     <div class="container  image-container">
-        <img src={ image } alt={ title } class=>
+        <img src={ image } alt={ title }>
         <div class="overlay rounded-lg overlay absolute bg-black bg-opacity-70 text-white p-4">
-        <h2>{ title }</h2>
-        <h3>{ tecnologis }</h3>
+        <h2 class="md:text-3xl ">{ title }</h2>
+        <h3 class=" md:text-lg ">{ tecnologis }</h3>
         </div>
     </div>
     <a href={ url } class="bg-red-600 rounded-t-3xl rounded-b-3xl"></a>
