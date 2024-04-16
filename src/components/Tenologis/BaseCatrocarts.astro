@@ -7,9 +7,22 @@ interface ITecnologis{
 const {Title, Image} = Astro.props
 ---
 
-<div class="contaienr">
-    <h1 class="bg-red-600">
-        { Title }
-    </h1>
-    <img src={ Image } alt= { Title }>
+
+<div
+  class="relative group cursor-pointer overflow-hidden duration-500 w-64 h-64 border-2 border-indigo-700 text-gray-50 p-5 rounded-t-xl rounded-b-xl shadow-lg shadow-indigo-500/40"
+>
+  <div class="">
+    <img src={ Image } alt={ Title } class=" h-40 w-60">
+    <div
+      class="absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12"
+    >
+      <div
+        class="absolute left-0 w-64 h-28 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900"
+      ></div>
+      <span class="text-xl font-bold">{ Title }</span>
+      <p class="group-hover:opacity-100 w-56 duration-500 opacity-0">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
 </div>

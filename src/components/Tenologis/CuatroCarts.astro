@@ -2,13 +2,13 @@
 import CartBase from './BaseCatrocarts.astro'
 import CartsContent from '../../config/DataTecnologis.json'
 ---
-<ul class="container">
+<ul class="container grid grid-cols-3 gap-20">
     {
         CartsContent.map((CartsContent)=>{
             return(
                 <CartBase
                 Title ={CartsContent.Tecnologia}
-                Image ={CartsContent.Tecnologia}
+                Image ={CartsContent.Image}
                 />
             )
         })
