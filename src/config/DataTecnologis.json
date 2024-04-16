@@ -1,18 +1,27 @@
 [
     {
-        "Tecnologia":"TypeScript",
-        "Image":"/TypeScrpt.svg"
+        "Tecnologia": "TypeScript",
+        "Image": "TypeScript.svg"
     },
     {
-        "Tecnologia":"JavaScript",
-        "Image":"../../../publJSIconn.svg"
+        "Tecnologia": "JavaScript",
+        "Image": "JSIconn.svg"
     },
     {
-        "Tecnologia":"Angular",
-        "Image":"/AngularIcon.svg"
+        "Tecnologia": "Angular",
+        "Image": "AngulaIcon.svg"
     },
     {
-        "Tecnologia":"Taillwin",
-        "Image":"/TailwindIcon.svg"
+        "Tecnologia": "Tailwind",
+        "Image": "TailwindIcon.svg"
+    }
+    ,
+    {
+        "Tecnologia": "Astro",
+        "Image": "AstroIcon.svg"
+    },
+    {
+        "Tecnologia": "SQL",
+        "Image": "SQLIcon.svg"
     }
 ]
