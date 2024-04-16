@@ -1,0 +1,16 @@
+---
+import CartBase from './BaseCatrocarts.astro'
+import CartsContent from '../../config/DataTecnologis.json'
+---
+<ul class="container">
+    {
+        CartsContent.map((CartsContent)=>{
+            return(
+                <CartBase
+                Title ={CartsContent.Tecnologia}
+                Image ={CartsContent.Tecnologia}
+                />
+            )
+        })
+    }
+</ul>

@@ -1,0 +1,15 @@
+---
+interface ITecnologis{
+    Title:string
+    Image: string
+}
+
+const {Title, Image} = Astro.props
+---
+
+<div class="contaienr">
+    <h1 class="bg-red-600">
+        { Title }
+    </h1>
+    <img src={ Image } alt= { Title }>
+</div>
