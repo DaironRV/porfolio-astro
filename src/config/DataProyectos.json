@@ -1,16 +1,10 @@
 [
     {
-        "Title":"Cliente Free lance",
-        "Image":"https://media.discordapp.net/attachments/1112216671227215965/1229451651270709248/image.png?ex=662fbb13&is=661d4613&hm=b88a962a609a08742f711fd7568f9338cd9aba84a8881a06559aa8734b3f0517&=&format=webp&quality=lossless&width=817&height=559",
-        "Tecnologias":"JavaScript-CSS-HTML",
-        "url": "https://daironrv.github.io/Cliente/"
-    },
-    {
         "Title":"Identificadion Monedas",
         "Image":"https://media.discordapp.net/attachments/1112216671227215965/1229464129568247819/311406092-5409718d-7685-47ba-8cbe-db154d4e498d.png?ex=662fc6b2&is=661d51b2&hm=afde5380bcd5b86bd301f7c8aa3dce7e64daffe9d9805d5da480b31678a6ae0a&=&format=webp&quality=lossless&width=1004&height=559",
         "Tecnologias":"Python-OpenCV ",
         "url": "https://github.com/DaironRV/contador-monedas-camara?tab=readme-ov-file"
-
+        
     },
     {
         "Title":"Fan Page Black Library",
@@ -23,7 +17,13 @@
         "Image":"https://media.discordapp.net/attachments/1112216671227215965/1229463931894894692/271570212-ffde5dd7-6efb-486f-bdee-ef035dfd677c.png?ex=662fc683&is=661d5183&hm=817065166205a1f8001991c24055e2ef05b5a4ca7a6c1275f43be4f8bb6ffeee&=&format=webp&quality=lossless&width=1131&height=559",
         "Tecnologias":"Django-HTML-CSS-JavaScript",
         "url": "https://github.com/programateacademy/c9-interno-empleabilidad"
-
-
+        
+        
+    },
+    {
+        "Title":"Cliente Free lance",
+        "Image":"https://media.discordapp.net/attachments/1112216671227215965/1229451651270709248/image.png?ex=662fbb13&is=661d4613&hm=b88a962a609a08742f711fd7568f9338cd9aba84a8881a06559aa8734b3f0517&=&format=webp&quality=lossless&width=817&height=559",
+        "Tecnologias":"JavaScript-CSS-HTML",
+        "url": "https://daironrv.github.io/Cliente/"
     }
 ]
