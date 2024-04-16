@@ -1,0 +1,18 @@
+[
+    {
+        "Tecnologia":"TypeScript",
+        "Image":"/TypeScrpt.svg"
+    },
+    {
+        "Tecnologia":"JavaScript",
+        "Image":"../../../publJSIconn.svg"
+    },
+    {
+        "Tecnologia":"Angular",
+        "Image":"/AngularIcon.svg"
+    },
+    {
+        "Tecnologia":"Taillwin",
+        "Image":"/TailwindIcon.svg"
+    }
+]
