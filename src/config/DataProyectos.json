@@ -1,6 +1,6 @@
 [
     {
-        "Title":"Identificadion Monedas",
+        "Title":"Identificación De Monedas Con Camara",
         "Image":"https://media.discordapp.net/attachments/1112216671227215965/1229464129568247819/311406092-5409718d-7685-47ba-8cbe-db154d4e498d.png?ex=662fc6b2&is=661d51b2&hm=afde5380bcd5b86bd301f7c8aa3dce7e64daffe9d9805d5da480b31678a6ae0a&=&format=webp&quality=lossless&width=1004&height=559",
         "Tecnologias":"Python-OpenCV ",
         "url": "https://github.com/DaironRV/contador-monedas-camara?tab=readme-ov-file"
@@ -10,7 +10,7 @@
         "Title":"Fan Page Black Library",
         "Image":" https://media.discordapp.net/attachments/1112216671227215965/1146920521787773018/image.png?ex=662acbf9&is=661856f9&hm=9dbe3419e98c3c8cbe6fb23928e36efd46edadd99ba71143ee85b5cf36b34b07&=&format=webp&quality=lossless&width=1200&height=523",
         "Tecnologias":"JavaScript-CSS-HTML",
-        "url": "https://github.com/DaironRV/Fan-Black-Library"
+        "url": "https://daironrv.github.io/Fan-Black-Library/"
     },
     {
         "Title":"EducaMás Pagina Empleabidad",
