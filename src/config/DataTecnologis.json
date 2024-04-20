@@ -1,33 +1,33 @@
 [
     {
         "Tecnologia": "TypeScript",
-        "Image": "TypeScript.svg",
+        "Image": "/porfolio-astro/TypeScript.svg",
         "Content":"¿Que no es obvio por las tecnologias que uso?"
     },
     {
         "Tecnologia": "JavaScript",
-        "Image": "JSIconn.svg",
+        "Image": "/porfolio-astro/JSIconn.svg",
         "Content":"Estoy haciendo mis propios juegos con JS tenme paciencia"
     },
     {
         "Tecnologia": "Angular",
-        "Image": "AngulaIcon.svg",
+        "Image": "/porfolio-astro/AngulaIcon.svg",
         "Content":"Angular es un framework que me apaciona mira mi GitHub!"
     },
     {
         "Tecnologia": "Tailwind",
-        "Image": "TailwindIcon.svg",
+        "Image": "/porfolio-astro/TailwindIcon.svg",
         "Content":"¡ESTE PORFOLIO ESTA HECHO CON TAILWID!"
     }
     ,
     {
         "Tecnologia": "Astro",
-        "Image": "AstroIcon.svg",
+        "Image": "/porfolio-astro/AstroIcon.svg",
         "Content":"¡ESTE PORFOLIO ESTA HECHO CON ASTRO!"
     },
     {
         "Tecnologia": "SQL",
-        "Image": "SQLIcon.svg",
+        "Image": "/porfolio-astro/SQLIcon.svg",
         "Content":"Tengo experiencia usando Bases de datos relacionales."
     }
 ]
