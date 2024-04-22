@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "subir": "gh-pages -d dist"
+    "subir": "gh-pages -d subir"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",
