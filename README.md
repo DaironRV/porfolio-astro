@@ -1,18 +1,18 @@
-# Astro Starter Kit: Basics
+# Astro Porfolio Dairon
 
 ```sh
-npm create astro@latest -- --template basics
+ git clone https://github.com/DaironRV/porfolio-astro.git
 ```
 
 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> 🧑‍🚀 **Listo para despegar** Esto fue demasiado divertido!
 
 ![just-the-basics](https://media.discordapp.net/attachments/1112216671227215965/1232458133256011878/image.png?ex=66298794&is=66283614&hm=1bfca476f59fec3bb29101f334cf36f15baa6ca372b170679919a91f0bbaac34&=&format=webp&quality=lossless&width=1139&height=559)
 
-## 🚀 Project Structure
+## 🚀 Estructura Del Proyecto
 
-Inside of your Astro project, you'll see the following folders and files:
+Esta es la estructura de mi proyecto
 
 ```text
 /
@@ -76,6 +76,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 | `npm run subir`           | Subir a GitHub Pages                             |
 
-## 👀 Want to learn more?
+## 👀 Quieres ver mas?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Proyecto: [Python](https://github.com/DaironRV/contador-monedas-camara.git) O con [Estado de empleabilidad](https://github.com/programateacademy/c9-interno-empleabilidad.git).
