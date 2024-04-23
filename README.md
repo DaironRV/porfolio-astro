@@ -1,10 +1,10 @@
 # Astro Porfolio Dairon
 
-# Clonar repo
+### Clonar repo
 ```sh
  git clone https://github.com/DaironRV/porfolio-astro.git
 ```
-# Remover origin
+### Remover origin
 ```sh
  git remote -v
  git remote remove origin
