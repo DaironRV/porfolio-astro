@@ -56,11 +56,11 @@ Esta es la estructura de mi proyecto
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Astro busca archivos `.astro` o `.md` en el directorio `src/pages/`. Cada página se expone como una ruta basada en su nombre de archivo.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+No hay nada especial en `src/components/`, pero es donde solemos colocar componentes de `Astro/React/Vue/Svelte/Preact.`
 
-Any static assets, like images, can be placed in the `public/` directory.
+Los activos estáticos, como imágenes, se pueden colocar en el directorio `public/`
 
 ## 🧞 Commands
 
