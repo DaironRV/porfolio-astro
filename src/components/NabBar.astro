@@ -8,23 +8,7 @@
     </nav>
 
 
-  <script>
-const nav: HTMLElement | null = document.querySelector(".tabs-container");
 
-if (nav) {
-    const offset: number = nav.offsetTop;
-
-    window.addEventListener("scroll", function () {
-        if (window.scrollY >= offset) {
-            nav.classList.add("sticky");
-        } else {
-            nav.classList.remove("sticky");
-        }
-    });
-} else {
-    console.error("Elemento '.tabs-container' no encontrado.");
-}
-  </script>
 
 <style>
 
@@ -83,3 +67,20 @@ h1 {
   align-items: center;
 }
 </style>
+<script>
+  const nav: HTMLElement | null = document.querySelector(".tabs-container");
+  
+  if (nav) {
+      const offset: number = nav.offsetTop;
+  
+      window.addEventListener("scroll", function () {
+          if (window.scrollY >= offset) {
+              nav.classList.add("sticky");
+          } else {
+              nav.classList.remove("sticky");
+          }
+      });
+  } else {
+      console.error("Elemento '.tabs-container' no encontrado.");
+  }
+    </script>
