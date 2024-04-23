@@ -10,7 +10,7 @@ npm create astro@latest -- --template basics
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+![just-the-basics](https://media.discordapp.net/attachments/1112216671227215965/1232458133256011878/image.png?ex=66298794&is=66283614&hm=1bfca476f59fec3bb29101f334cf36f15baa6ca372b170679919a91f0bbaac34&=&format=webp&quality=lossless&width=1139&height=559)
 
 ## 🚀 Project Structure
 
@@ -22,7 +22,35 @@ Inside of your Astro project, you'll see the following folders and files:
 │   └── favicon.svg
 ├── src/
 │   ├── components/
-│   │   └── Card.astro
+│   │   ├── Contacto/
+│   │   │   ├──ContactaConMigo.astro
+│   │   │   └──ContainerCCM.astro
+│   │   │
+│   │   ├── Proyecto/
+│   │   │   ├──ProyectosCard.astro
+│   │   │   └──ProyectosImage.astro
+│   │   │
+│   │   ├── Tecnologias/
+│   │   │   ├──BaseCatrocarts.astro
+│   │   │   ├──Combinacion.astro
+│   │   │   ├──CuatroCarts.astro
+│   │   │   └──UnaCart.astro
+│   │   │
+│   │   ├── cartAvilidades.astro
+│   │   ├── CartPerfil.astro
+│   │   ├── CartProyectImage.astro
+│   │   ├── cartProyectContainer.astro
+│   │   ├── Footer.astro
+│   │   ├── Hero.astro
+│   │   ├── Image.astro
+│   │   ├── NavBar.astro
+│   │   ├── SobreMi.astro
+│   │   └── Title.astro
+│   ├──config
+│   │    └── Data.json
+│   │    └── DataProyectos.jason
+│   │    └── DataTecnologis.jason
+│   │
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
@@ -48,6 +76,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm run subir`           | Subir a GitHub Pages                             |
 
 ## 👀 Want to learn more?
 
