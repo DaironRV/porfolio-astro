@@ -11,10 +11,10 @@ const {title, tecnologis, image, url} = Astro.props
 <!-- aqui va a ser para rendersizar las imagenes como tal -->
 
 
-<li class=" bg-slate-900/90 p-6 rounded-2xl justify-items-stretch h-72 my-10">
+<li class=" bg-slate-900/90 p-6 rounded-2xl justify-items-stretch h-30 xl:h-72 my-10">
     <div class="flex space-x-6">
         <div class="container image-container w-full h-60 ">
-            <img src={ image } alt={ title } class="rounded-2xl ">
+            <img src={ image } alt={ title } class="rounded-2xl">
             <div class="overlay rounded-lg overlay absolute p-4">
               <h2 class="md:text-3xl text-orange-100 ">{ title }</h2>
               <h3 class=" md:text-lg  underline  decoration-wavy decoration-orange-600 text-orange-100">{ tecnologis }</h3>
