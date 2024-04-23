@@ -22,7 +22,7 @@
 Esta es la estructura de mi proyecto
 
 ```text
-/
+
 ├── public/
 │   └── favicon.svg
 ├── src/
