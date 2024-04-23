@@ -3,6 +3,11 @@
 ```sh
  git clone https://github.com/DaironRV/porfolio-astro.git
 ```
+```sh
+ git remote -v
+ git remote remove origin
+ git remote add origin <nueva_url_del_repositorio>
+```
 
 
 
